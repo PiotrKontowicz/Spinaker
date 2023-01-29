@@ -1,1 +1,1 @@
-# spinaker
+# VM config files
