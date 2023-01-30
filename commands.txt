@@ -1,0 +1,5 @@
+Add vagrant box from local file:
+vagrant box add <name>.box --name <vagrant_name>
+
+Export vm to vagrant box:
+ vagrant package --base <vm_name> --output <name>.box
