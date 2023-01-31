@@ -1,5 +1,13 @@
 Add vagrant box from local file:
 vagrant box add <name>.box --name <vagrant_name>
 
+vagrant box add Kali.box --name Kontowicz/Kali
+vagrant box add Metasploitable3_ub.box --name Kontowicz/Metasploitable3
+vagrant box add metasploitable3_workspace_win2k8.box --name Kontowicz/Metasploitable3workspace
+vagrant box add ubuntu.box --name Kontowicz/Ubuntu20.04
+vagrant box add win10_crypto.box --name Kontowicz/Win10Crypto
+vagrant box add Win7.box --name Kontowicz/Win7
+vagrant box add xubuntu.box --name Kontowicz/Xubuntu
+
 Export vm to vagrant box:
- vagrant package --base <vm_name> --output <name>.box
+vagrant package --base <vm_name> --output <name>.box
